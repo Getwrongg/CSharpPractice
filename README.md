@@ -15,11 +15,11 @@ This repository maps out a structured, TAFE-friendly pathway for learning C# fro
 11. `11_File_IO`
 12. `12_Best_Practices`
 
-Each topic folder contains:
+Each topic folder now uses a single `README.md` that brings together:
 
-- **README.md** – a plain-language explainer of the concept.
-- **Context.md** – why the idea matters and where it appears in real programs.
-- **Syntax_Notes.md** – the shape and meaning of relevant syntax without full code listings.
-- **Common_Mistakes.md** (when needed) – traps beginners can avoid.
+- A plain-language explainer of the concept.
+- Context about why the idea matters and where it shows up in real programs.
+- Syntax breakdowns that highlight structure without full executable code.
+- Common beginner mistakes (where available) so you can spot trouble early.
 
-Start at `01_Getting_Started` and move down the numbered folders. Every section highlights how the ideas connect so you can build a solid foundation before jumping into full projects.
+Start at `01_Getting_Started` and move down the numbered folders. Every section highlights how the ideas connect so you can build a solid foundation before jumping into full projects or uploading your own practice work inside each folder.
