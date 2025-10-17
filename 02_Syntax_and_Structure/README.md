@@ -60,3 +60,15 @@ DoSomething();
 - **Wrong access modifier** – marking everything `public` can expose implementation details. Think about who should see each member.
 - **CamelCase vs PascalCase** – method names should be PascalCase in C#. Using inconsistent naming makes code harder to read for teammates.
 - **Missing `using` directives** – if you forget to include required namespaces, later topics like **Collections** won't compile.
+
+## Downloadable Console Demo
+Inside this folder you'll find a Visual Studio solution at `SyntaxStructureDemo/SyntaxStructureDemo.sln`. It spins up a simple console app that:
+- Uses a namespace, class, and `Main` method structure exactly as described above.
+- Prints statements that highlight the role of access modifiers, the `static` keyword, and semicolons.
+
+### How to Use It
+1. Open the solution in Visual Studio or Rider.
+2. Restore packages if prompted (the project targets .NET 6 and uses only the base class library).
+3. Run the project to see console output that reinforces the syntax commentary from this topic.
+
+> Tip: Ask students to tweak the access modifier or remove a semicolon, then build. They'll experience the compiler feedback discussed in the Common Mistakes section.
